@@ -1,6 +1,11 @@
 name = "iox"
 version = "0.0.1"
 
+description = "Extra IO features for Gleam."
+licences = ["Apache-2.0"]
+
+repository = { type = "github", user = "Nekika", repo = "iox" }
+
 [dependencies]
 gleam_stdlib = "~> 0.34 or ~> 1.0"
 
