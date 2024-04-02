@@ -3,6 +3,7 @@ import gleam/list
 import gleam/result
 
 @external(erlang, "io", "get_line")
+@external(javascript, "../iox_ffi.mjs", "getLine")
 fn get_line(prompt: String) -> dynamic.Dynamic
 
 pub fn read_line() -> Result(String, Nil) {
